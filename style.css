@@ -41,7 +41,7 @@ a:hover {
 
 .site-title {
   margin: 0;
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(2rem, 3vw, 3.5rem);
   font-style: italic;
   font-weight: 700;
   color: #111;
