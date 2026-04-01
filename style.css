@@ -92,3 +92,300 @@ a:hover {
   font-size: 0.9rem;
   color: #666;
 }
+
+.profile-box {
+  width: 86%;
+  margin: 0 auto 30px;
+  padding: 20px;
+  border: 3px solid #000000;
+  background: #fffdf5;
+}
+
+.profile-image {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+  border: 4px solid #000000;
+  background: #ffffff;
+}
+
+.profile-text {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.back-home {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.back-home a {
+  display: inline-block;
+  padding: 8px 16px;
+  font-weight: bold;
+  border: 2px solid #000000;
+  background: #ffffff;
+}
+
+.shop-box {
+  width: 86%;
+  margin: 0 auto 30px;
+  padding: 16px;
+  border: 3px solid #000000;
+  background: #fffdf5;
+}
+
+.shop-list a {
+  display: inline-block;
+  margin: 4px 6px;
+}
+
+.shop-list .no-link {
+  color: #999999;
+  text-decoration: none;
+  cursor: default;
+}
+
+.shop-list a:not(.no-link):hover {
+  color: #ff3300;
+  background-color: #ffff99;
+}
+
+
+.disc-box {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.disc-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding: 16px;
+  border: 3px solid #000000;
+  background: #ffffff;
+}
+
+.disc-left {
+  width: 250px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.disc-left img {
+  width: 128px;
+  height: 128px;
+  border: 3px solid #000000;
+  display: block;
+  margin: 0 auto 8px;
+  background: #ffffff;
+}
+
+.disc-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.disc-right {
+  flex: 1;
+  text-align: left;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.sold {
+  color: red;
+}
+
+.disc-right ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.live-box {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.live-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding: 16px;
+  border: 3px solid #000000;
+  background: #ffffff;
+}
+
+.live-left {
+  width: 250px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.live-left img {
+  width: 128px;
+  height: 128px;
+  border: 3px solid #000000;
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.live-title {
+  font-weight: bold;
+}
+
+.live-right {
+  text-align: left;
+  flex: 1;
+}
+
+.live-right p {
+  margin: 4px 0;
+}
+
+.live-right ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+}
+
+.goods-box {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.goods-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding: 16px;
+  border: 3px solid #000000;
+  background: #ffffff;
+}
+
+.goods-left {
+  width: 250px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.goods-left img {
+  width: 128px;
+  height: 128px;
+  border: 3px solid #000000;
+  display: block;
+  margin: 0 auto 8px;
+  background: #ffffff;
+}
+
+.goods-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.goods-right {
+  flex: 1;
+  text-align: left;
+}
+
+.goods-text {
+  margin: 0 0 12px;
+}
+
+.goods-right .price {
+  margin: 0;
+}
+
+.new {
+  color: red;
+  font-weight: bold;
+}
+
+.profile-name {
+  margin: 0 0 16px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.history-box {
+  width: 86%;
+  margin: 0 auto 28px;
+  padding: 16px 20px;
+  border: 3px solid #000000;
+  background: #fffdf5;
+  text-align: left;
+}
+
+.history-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 14px 0;
+  border-bottom: 1px dashed #999999;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+.history-date {
+  width: 130px;
+  flex-shrink: 0;
+  font-weight: bold;
+  color: #ff3399;
+}
+
+.history-content {
+  flex: 1;
+}
+
+.history-content p {
+  margin: 0 0 6px;
+}
+
+.history-content p:last-child {
+  margin-bottom: 0;
+}
+
+.history-box {
+  width: 86%;
+  margin: 0 auto 28px;
+  padding: 16px 20px;
+  border: 3px solid #000000;
+  background: #fffdf5;
+
+  text-align: center; /* ← ここ追加 */
+}
+
+.history-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 14px 0;
+  border-bottom: 1px dashed #999999;
+
+  justify-content: center; /* ← 中央寄せ */
+}
+
+.history-date {
+  width: 130px;
+  font-weight: bold;
+  color: #ff3399;
+  text-align: right; /* ← 日付は右寄せにすると綺麗 */
+}
+
+.history-content {
+  width: 500px; /* ← 幅固定で中央にまとまる */
+  text-align: left; /* ← 内容は左寄せ */
+}
