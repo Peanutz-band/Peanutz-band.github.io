@@ -5,7 +5,13 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
-  background: #fffdf8;
+  /* background: #fffdf8; */
+  background: #ffe4b5;
+  background-image:
+    radial-gradient(#ffffff 1px, transparent 1px),
+    radial-gradient(#ffd6e7 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
   color: #222;
   line-height: 1.7;
 }
@@ -67,7 +73,7 @@ a:hover {
   font-weight: 700;
 }
 
-.news-list li + li {
+.news-list li+li {
   margin-top: 8px;
 }
 
@@ -82,9 +88,10 @@ a:hover {
 .nav a {
   display: inline-block;
   padding: 10px 18px;
-  border: 1px solid #222;
   border-radius: 999px;
-  background: #fff;
+  background: #d2a679;
+  color: #000;
+  border: 2px solid #000;
   font-weight: 700;
 }
 
@@ -98,7 +105,7 @@ a:hover {
   margin: 0 auto 30px;
   padding: 20px;
   border: 3px solid #000000;
-  background: #fffdf5;
+  background: #fff3d1;
 }
 
 .profile-image {
@@ -127,7 +134,8 @@ a:hover {
   padding: 8px 16px;
   font-weight: bold;
   border: 2px solid #000000;
-  background: #ffffff;
+  border-radius: 999px;
+  background: #fff3d1;
 }
 
 .shop-box {
@@ -135,7 +143,7 @@ a:hover {
   margin: 0 auto 30px;
   padding: 16px;
   border: 3px solid #000000;
-  background: #fffdf5;
+  background: #fff3d1;
 }
 
 .shop-list a {
@@ -167,7 +175,7 @@ a:hover {
   margin-bottom: 30px;
   padding: 16px;
   border: 3px solid #000000;
-  background: #ffffff;
+  background: #fff3d1;
 }
 
 .disc-left {
@@ -182,7 +190,7 @@ a:hover {
   border: 3px solid #000000;
   display: block;
   margin: 0 auto 8px;
-  background: #ffffff;
+  background: #fff3d1;;
 }
 
 .disc-title {
@@ -223,7 +231,7 @@ a:hover {
   margin-bottom: 30px;
   padding: 16px;
   border: 3px solid #000000;
-  background: #ffffff;
+  background: #fff3d1;;
 }
 
 .live-left {
@@ -270,7 +278,7 @@ a:hover {
   margin-bottom: 30px;
   padding: 16px;
   border: 3px solid #000000;
-  background: #ffffff;
+  background: #fff3d1;
 }
 
 .goods-left {
@@ -285,7 +293,7 @@ a:hover {
   border: 3px solid #000000;
   display: block;
   margin: 0 auto 8px;
-  background: #ffffff;
+  background: #fff3d1;;
 }
 
 .goods-title {
@@ -318,36 +326,9 @@ a:hover {
   font-weight: bold;
 }
 
-.history-box {
-  width: 86%;
-  margin: 0 auto 28px;
-  padding: 16px 20px;
-  border: 3px solid #000000;
-  background: #fffdf5;
-  text-align: left;
-}
-
-.history-item {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-  padding: 14px 0;
-  border-bottom: 1px dashed #999999;
-}
 
 .history-item:last-child {
   border-bottom: none;
-}
-
-.history-date {
-  width: 130px;
-  flex-shrink: 0;
-  font-weight: bold;
-  color: #ff3399;
-}
-
-.history-content {
-  flex: 1;
 }
 
 .history-content p {
@@ -363,9 +344,8 @@ a:hover {
   margin: 0 auto 28px;
   padding: 16px 20px;
   border: 3px solid #000000;
-  background: #fffdf5;
-
-  text-align: center; /* ← ここ追加 */
+  background: #fff3d1;;
+  text-align: center;
 }
 
 .history-item {
@@ -374,18 +354,17 @@ a:hover {
   align-items: flex-start;
   padding: 14px 0;
   border-bottom: 1px dashed #999999;
-
-  justify-content: center; /* ← 中央寄せ */
+  justify-content: center;
 }
 
 .history-date {
   width: 130px;
   font-weight: bold;
   color: #ff3399;
-  text-align: right; /* ← 日付は右寄せにすると綺麗 */
+  text-align: right;
 }
 
 .history-content {
-  width: 500px; /* ← 幅固定で中央にまとまる */
-  text-align: left; /* ← 内容は左寄せ */
+  width: 500px;
+  text-align: left;
 }
