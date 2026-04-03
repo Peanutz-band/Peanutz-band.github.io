@@ -122,6 +122,8 @@ a:hover {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.8;
+  text-align: left;
+  line-break: strict;
 }
 
 .back-home {
@@ -190,7 +192,8 @@ a:hover {
   border: 3px solid #000000;
   display: block;
   margin: 0 auto 8px;
-  background: #fff3d1;;
+  background: #fff3d1;
+  ;
 }
 
 .disc-title {
@@ -231,7 +234,8 @@ a:hover {
   margin-bottom: 30px;
   padding: 16px;
   border: 3px solid #000000;
-  background: #fff3d1;;
+  background: #fff3d1;
+  ;
 }
 
 .live-left {
@@ -293,7 +297,8 @@ a:hover {
   border: 3px solid #000000;
   display: block;
   margin: 0 auto 8px;
-  background: #fff3d1;;
+  background: #fff3d1;
+  ;
 }
 
 .goods-title {
@@ -344,7 +349,8 @@ a:hover {
   margin: 0 auto 28px;
   padding: 16px 20px;
   border: 3px solid #000000;
-  background: #fff3d1;;
+  background: #fff3d1;
+  ;
   text-align: center;
 }
 
@@ -367,4 +373,158 @@ a:hover {
 .history-content {
   width: 500px;
   text-align: left;
+}
+
+.no-break {
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .container {
+    padding: 20px 12px 32px;
+  }
+
+  .hero {
+    margin-bottom: 28px;
+  }
+
+  .hero-image {
+    max-width: 320px;
+    margin: 0 auto 16px;
+  }
+
+  .site-title {
+    font-size: clamp(1.4rem, 5vw, 3rem);
+    white-space: nowrap;
+  }
+
+  .welcome-text {
+    line-height: 1.5;
+    margin: 0 0 8px;
+    white-space: nowrap;
+    font-size: clamp(12px, 4vw, 24px);
+  }
+
+  .sub-title {
+    font-size: 0.95rem;
+  }
+
+  .news {
+    margin-bottom: 28px;
+    padding: 16px 12px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  .news-list {
+    font-size: 1rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+
+  .nav a {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 12px 16px;
+  }
+
+  .profile-box,
+  .shop-box,
+  .disc-box,
+  .live-box,
+  .goods-box,
+  .history-box {
+    width: 100%;
+  }
+
+  .profile-box,
+  .shop-box,
+  .history-box {
+    padding: 14px 12px;
+  }
+
+  .profile-image {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .profile-text {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .profile-name {
+    font-size: 22px;
+  }
+
+  .disc-item,
+  .live-item,
+  .goods-item,
+  .history-item {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .disc-left,
+  .live-left,
+  .goods-left,
+  .history-date,
+  .history-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .disc-left img,
+  .live-left img,
+  .goods-left img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .disc-right,
+  .live-right,
+  .goods-right,
+  .history-content {
+    text-align: left;
+  }
+
+  .disc-right ol,
+  .live-right ul {
+    padding-left: 18px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .history-item {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .history-date {
+    text-align: left;
+    margin-bottom: 4px;
+  }
+
+  .back-home a {
+    width: 100%;
+    max-width: 280px;
+  }
+
+
 }
