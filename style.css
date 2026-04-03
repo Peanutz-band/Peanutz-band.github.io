@@ -95,6 +95,16 @@ a:hover {
   font-weight: 700;
 }
 
+.nav a:hover {
+  transform: translateY(2px);
+  box-shadow: 1px 1px 0 #000;
+}
+
+.nav a:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #000;
+}
+
 .footer {
   font-size: 0.9rem;
   color: #666;
@@ -138,6 +148,16 @@ a:hover {
   border: 2px solid #000000;
   border-radius: 999px;
   background: #fff3d1;
+}
+
+.back-home a:hover {
+  transform: translateY(2px);
+  box-shadow: 1px 1px 0 #000;
+}
+
+.back-home a:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #000;
 }
 
 .shop-box {
@@ -379,6 +399,31 @@ a:hover {
   white-space: nowrap;
 }
 
+.cta-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 14px 22px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  background: #d2a679;
+  border: 2px solid #000;
+  border-radius: 999px;
+  text-decoration: none;
+  /* box-shadow: 3px 3px 0 #000; */
+  transition: all 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(2px);
+  box-shadow: 1px 1px 0 #000;
+}
+
+.cta-button:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #000;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 15px;
@@ -526,5 +571,12 @@ a:hover {
     max-width: 280px;
   }
 
+  .cta-button {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    font-size: 15px;
+    padding: 16px;
+  }
 
 }
